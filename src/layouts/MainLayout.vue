@@ -116,6 +116,16 @@
                   target="__blank"
                   href="https://beian.mps.gov.cn/#/"
                 >桂公网安备45030302000299号</a>
+                <img
+                  style="margin-left:15px;margin-right:2px"
+                  width="20"
+                  src="../assets/images/common/Github.svg"
+                  alt=""
+                >
+                <a
+                  target="__blank"
+                  href="https://github.com/hellow-km/yunren"
+                >Github</a>
               </div>
             </div>
           </div>
