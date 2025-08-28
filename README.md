@@ -1,4 +1,6 @@
 # yunren-client
+### 桌面端https://github.com/hellow-km/yunren-client
+### 后端 https://github.com/hellow-km/yunren_server
 ## 预览
 
 ![预览图片](https://raw.githubusercontent.com/hellow-km/yunren/refs/heads/main/preview/1.png)
