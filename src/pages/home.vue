@@ -87,13 +87,13 @@
               <div class="overlay-box">
                 <div class="tool-item-overlay">
                   <div class="item-overlay-box">
-                    <div class="item-overlay-title text-h5">{{$t(item.title)}}</div>
-                    <div class="item-overlay-desc">{{$t(item.desc)}}</div>
+                    <h1 class="item-overlay-title text-h5">{{$t(item.title)}}</h1>
+                    <h2 class="item-overlay-desc">{{$t(item.desc)}}</h2>
                   </div>
                 </div>
 
               </div>
-              <div class="tool-item-overlay tool-item-overlay-right">{{$t(item.title)}}</div>
+              <h1 class="tool-item-overlay tool-item-overlay-right">{{$t(item.title)}}</h1>
             </a>
           </div>
         </div>
@@ -125,8 +125,8 @@
             <div class="overlay-box">
               <div class="tool-item-overlay">
                 <div class="item-overlay-box">
-                  <div class="item-overlay-title text-h5">{{$t(item.title)}}</div>
-                  <div class="item-overlay-desc">{{$t(item.desc)}}</div>
+                  <h1 class="item-overlay-title text-h5">{{$t(item.title)}}</h1>
+                  <h2 class="item-overlay-desc">{{$t(item.desc)}}</h2>
                 </div>
               </div>
               <div class="tool-item-overlay tool-item-overlay-right">{{$t(item.title)}}</div>
@@ -630,6 +630,16 @@ onMounted(async () => {
           left: 0;
           right: 0;
           bottom: 0;
+          h1,
+          h2 {
+            font-size: 20px;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+          }
+          h2 {
+            font-size: 16px;
+          }
           .item-overlay-desc {
             white-space: normal;
             padding: 0 10px;
@@ -642,12 +652,15 @@ onMounted(async () => {
       .tool-item-overlay-right {
         transform: translateX(0);
         background-color: transparent;
-        font-size: 20px;
         top: unset;
         bottom: 0;
         right: 0;
         color: #fff;
+        font-size: 20px;
         height: 30px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
         background-color: rgba(0, 0, 0, 0.3);
       }
     }

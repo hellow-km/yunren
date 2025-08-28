@@ -8,10 +8,10 @@ const routes = [
         name: "home",
         component: () => import("src/pages/home.vue"),
         meta: {
-          desc: "网站工具,图片工具,在线工具,website tools,online tools,image tools,云任工具,云任工具在线,gonju,gongju,zaixiangonju",
+          desc: "云任工具,图片压缩,图片转换,xls在线编辑,精灵图制作,网站工具,在线工具,图片工具",
           keywords:
-            "网站工具,图片工具,在线工具,website tools,online tools,image tools,云任工具,云任工具在线,gonju,gongju,zaixiangonju",
-          title: "首页",
+            "云任工具,图片压缩,图片转换,xls在线编辑,精灵图制作,网站工具,在线工具,图片工具",
+          title: "云任工具",
         },
       },
 
